@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1840px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+header ul li a:hover {
+  background: lightgray;
+}
+
+header .bar-btn {
+  display: none;
+}
+
+header .bar-btn button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+header .bar-btn button span {
+  width: 50px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: black;
+  display: block;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .box {
+  width: 25%;
+  padding: 50px 0;
+}
+
+.main .box:first-child {
+  background: red;
+}
+
+.main .box:nth-child(2) {
+  background: saddlebrown;
+}
+
+.main .box:nth-child(3) {
+  background: gold;
+}
+
+.main .box:last-child {
+  background-color: olive;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container header .menu {
+    display: none;
+  }
+  .container header .bar-btn {
+    display: block;
+  }
+  .main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main .box {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
