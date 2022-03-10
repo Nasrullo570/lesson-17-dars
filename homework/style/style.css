@@ -4,4 +4,208 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  background: #edf0f3;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+header .top .logo {
+  width: 140px;
+  margin-top: 16px;
+}
+
+header .top .logo img {
+  width: 100%;
+}
+
+header .top .search {
+  width: 560px;
+  position: relative;
+}
+
+header .top .search input {
+  width: 100%;
+  background: #fff;
+  color: #252728;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 28px;
+  font-size: 14px;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+header .top .search input:focus {
+  outline: none;
+}
+
+header .top .search button {
+  position: absolute;
+  background: transparent;
+  border: 0;
+  right: 10px;
+  padding-left: 20px;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+          transform: translatey(-50%);
+}
+
+header .top .settings button {
+  margin: 0 7px;
+  width: 32px;
+  height: 32px;
+  background: #79818c;
+  border-radius: 50%;
+  border: 0;
+  color: #fff;
+}
+
+header .top .settings button:first-child {
+  background: #c0003d;
+}
+
+header .top .lang button {
+  margin: 0 7px;
+  width: 32px;
+  height: 32px;
+  background: #79818c;
+  border-radius: 50%;
+  border: 0;
+  color: #fff;
+  font-size: 10px;
+}
+
+header .top .lang button:first-child {
+  background: #c0003d;
+}
+
+header .menu {
+  background: #607d8b;
+}
+
+header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .menu ul li {
+  padding: 12px 15px 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16.5px;
+}
+
+header .menu ul .cub {
+  position: relative;
+}
+
+header .menu ul .cub:hover {
+  background: #252728;
+}
+
+header .menu ul .cub:hover .sub ul {
+  display: block;
+}
+
+header .menu ul .cub .sub {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 40px;
+}
+
+header .menu ul .cub .sub ul {
+  display: none;
+  width: 210px;
+}
+
+header .menu ul .cub .sub ul li {
+  color: white;
+  width: auto;
+  background: #78909c;
+  left: 0;
+  top: 0;
+}
+
+.content {
+  width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+}
+
+.content .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .left .main {
+  padding-left: 20px;
+}
+
+.content .left .main .card {
+  width: 40%;
+  border: 0;
+}
+
+.content .left .main .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .left .main .info .img-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.content .left .main .info .text-info a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #252728;
+}
+
+.content .left .main .info .text-info span {
+  color: #8c8d8e;
+  font-size: 14px;
+}
+
+.content .right {
+  width: 100px;
+}
+
+.content .right .card-right img {
+  margin-left: 25px;
+  height: 400px;
+  width: 250px;
+}
 /*# sourceMappingURL=style.css.map */
