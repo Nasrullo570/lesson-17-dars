@@ -74,9 +74,11 @@ header {
             }
         }
 
+        .aaa {
 
 
-
+            
+        }
     }
 
     .menu {
@@ -296,7 +298,7 @@ header {
 
 }
 
-.phota{
+.phota {
     width: 100%;
     display: flex;
     padding-top: 50px;
@@ -314,12 +316,13 @@ header {
         width: 25%;
         margin: 0 auto;
         padding-top: 100px;
-        .rasm{
+
+        .rasm {
             position: sticky;
             top: 10px;
             right: 0;
 
-        
+
         }
 
     }
@@ -540,4 +543,51 @@ header {
             }
         }
     }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .img{
+        display: block;
+    }
+    .icon {
+        display: none;
+    }
+
+    .lang {
+        display: none;
+    }
+
+    .aaa {
+        // display: block;
+
+        font-size: 40px;
+    }
+
+
+
+    .menu {
+        display: none;
+    }
+
+    .foto {
+        display: none;
+    }
+   
+
+    .filex{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        right: 0;
+    }
+    .left{
+        flex-direction: column;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+
 }

@@ -516,4 +516,44 @@ header .menu .yumor .dr-m ul li a {
 .foter .seti .his p a {
   color: #c0003d;
 }
+
+@media screen and (max-width: 500px) {
+  .img {
+    display: block;
+  }
+  .icon {
+    display: none;
+  }
+  .lang {
+    display: none;
+  }
+  .aaa {
+    font-size: 40px;
+  }
+  .menu {
+    display: none;
+  }
+  .foto {
+    display: none;
+  }
+  .filex {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+  }
+  .left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=style.css.map */
